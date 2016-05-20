@@ -1,0 +1,18 @@
+//
+// 客户端发往服务器的必须以CS开头 
+// 如message CS
+// 服务器发往客户端的必须以SC开头
+// 如message SC
+//
+
+syntax="proto2";
+
+message CSLogin{//login test
+	required bytes commandId = 1;//命令idx
+}
+
+//login return
+message SCLoginRet
+{
+	optional int32 ret = 1;
+}

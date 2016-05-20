@@ -1,0 +1,281 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Net">
+      <UniqueIdentifier>{f1353781-1774-48e8-988c-0f1db97bb378}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{0bbd4b8c-bff1-4759-a55a-2124fa128542}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility">
+      <UniqueIdentifier>{ae2f9d03-e79a-448d-a5e1-5cbd1d2fd292}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PacketHandler">
+      <UniqueIdentifier>{280d31a3-8756-46bc-acf3-9c2da7d72fbd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ThirdPart">
+      <UniqueIdentifier>{e003f118-662b-447c-8990-cd56ab0bde37}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Net\SocketAPI.h">
+      <Filter>Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Net\NetDefine.h">
+      <Filter>Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\BaseTypeDef.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Net\CSocket.h">
+      <Filter>Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Net\SocketStream.h">
+      <Filter>Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Net\NetIO.h">
+      <Filter>Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Net\Session.h">
+      <Filter>Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Net\SelectIO.h">
+      <Filter>Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\Singleton.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PacketHandler\MessageID.h">
+      <Filter>PacketHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="PacketHandler\MsgFactory.h">
+      <Filter>PacketHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="PacketHandler\PBMessage.pb.h">
+      <Filter>PacketHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="PacketHandler\Protocol.h">
+      <Filter>PacketHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="PacketHandler\ProtocolHandler.h">
+      <Filter>PacketHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdPart\protobuf\google\protobuf\any.h">
+      <Filter>ThirdPart</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdPart\protobuf\google\protobuf\any.pb.h">
+      <Filter>ThirdPart</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdPart\protobuf\google\protobuf\api.pb.h">
+      <Filter>ThirdPart</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdPart\protobuf\google\protobuf\arena.h">
+      <Filter>ThirdPart</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdPart\protobuf\google\protobuf\arena_test_util.h">
+      <Filter>ThirdPart</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdPart\protobuf\google\protobuf\arenastring.h">
+      <Filter>ThirdPart</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdPart\protobuf\google\protobuf\descriptor.h">
+      <Filter>ThirdPart</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdPart\protobuf\google\protobuf\descriptor.pb.h">
+      <Filter>ThirdPart</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdPart\protobuf\google\protobuf\descriptor_database.h">
+      <Filter>ThirdPart</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdPart\protobuf\google\protobuf\duration.pb.h">
+      <Filter>ThirdPart</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdPart\protobuf\google\protobuf\dynamic_message.h">
+      <Filter>ThirdPart</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdPart\protobuf\google\protobuf\empty.pb.h">
+      <Filter>ThirdPart</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdPart\protobuf\google\protobuf\extension_set.h">
+      <Filter>ThirdPart</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdPart\protobuf\google\protobuf\field_mask.pb.h">
+      <Filter>ThirdPart</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdPart\protobuf\google\protobuf\generated_enum_reflection.h">
+      <Filter>ThirdPart</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdPart\protobuf\google\protobuf\generated_enum_util.h">
+      <Filter>ThirdPart</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdPart\protobuf\google\protobuf\generated_message_reflection.h">
+      <Filter>ThirdPart</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdPart\protobuf\google\protobuf\generated_message_util.h">
+      <Filter>ThirdPart</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdPart\protobuf\google\protobuf\map.h">
+      <Filter>ThirdPart</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdPart\protobuf\google\protobuf\map_entry.h">
+      <Filter>ThirdPart</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdPart\protobuf\google\protobuf\map_entry_lite.h">
+      <Filter>ThirdPart</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdPart\protobuf\google\protobuf\map_field.h">
+      <Filter>ThirdPart</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdPart\protobuf\google\protobuf\map_field_inl.h">
+      <Filter>ThirdPart</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdPart\protobuf\google\protobuf\map_field_lite.h">
+      <Filter>ThirdPart</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdPart\protobuf\google\protobuf\map_lite_test_util.h">
+      <Filter>ThirdPart</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdPart\protobuf\google\protobuf\map_test_util.h">
+      <Filter>ThirdPart</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdPart\protobuf\google\protobuf\map_test_util_impl.h">
+      <Filter>ThirdPart</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdPart\protobuf\google\protobuf\map_type_handler.h">
+      <Filter>ThirdPart</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdPart\protobuf\google\protobuf\message.h">
+      <Filter>ThirdPart</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdPart\protobuf\google\protobuf\message_lite.h">
+      <Filter>ThirdPart</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdPart\protobuf\google\protobuf\metadata.h">
+      <Filter>ThirdPart</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdPart\protobuf\google\protobuf\package_info.h">
+      <Filter>ThirdPart</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdPart\protobuf\google\protobuf\proto_cast.h">
+      <Filter>ThirdPart</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdPart\protobuf\google\protobuf\reflection.h">
+      <Filter>ThirdPart</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdPart\protobuf\google\protobuf\reflection_internal.h">
+      <Filter>ThirdPart</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdPart\protobuf\google\protobuf\reflection_ops.h">
+      <Filter>ThirdPart</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdPart\protobuf\google\protobuf\repeated_field.h">
+      <Filter>ThirdPart</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdPart\protobuf\google\protobuf\repeated_field_reflection.h">
+      <Filter>ThirdPart</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdPart\protobuf\google\protobuf\service.h">
+      <Filter>ThirdPart</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdPart\protobuf\google\protobuf\source_context.pb.h">
+      <Filter>ThirdPart</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdPart\protobuf\google\protobuf\struct.pb.h">
+      <Filter>ThirdPart</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdPart\protobuf\google\protobuf\test_util.h">
+      <Filter>ThirdPart</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdPart\protobuf\google\protobuf\test_util_lite.h">
+      <Filter>ThirdPart</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdPart\protobuf\google\protobuf\text_format.h">
+      <Filter>ThirdPart</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdPart\protobuf\google\protobuf\timestamp.pb.h">
+      <Filter>ThirdPart</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdPart\protobuf\google\protobuf\type.pb.h">
+      <Filter>ThirdPart</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdPart\protobuf\google\protobuf\unknown_enum_impl.h">
+      <Filter>ThirdPart</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdPart\protobuf\google\protobuf\unknown_field_set.h">
+      <Filter>ThirdPart</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdPart\protobuf\google\protobuf\wire_format.h">
+      <Filter>ThirdPart</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdPart\protobuf\google\protobuf\wire_format_lite.h">
+      <Filter>ThirdPart</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdPart\protobuf\google\protobuf\wire_format_lite_inl.h">
+      <Filter>ThirdPart</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdPart\protobuf\google\protobuf\wrappers.pb.h">
+      <Filter>ThirdPart</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Net\SocketAPI.cpp">
+      <Filter>Net</Filter>
+    </ClCompile>
+    <ClCompile Include="Net\CSocket.cpp">
+      <Filter>Net</Filter>
+    </ClCompile>
+    <ClCompile Include="Net\SocketStream.cpp">
+      <Filter>Net</Filter>
+    </ClCompile>
+    <ClCompile Include="Net\SelectIO.cpp">
+      <Filter>Net</Filter>
+    </ClCompile>
+    <ClCompile Include="Client.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Net\Session.cpp">
+      <Filter>Net</Filter>
+    </ClCompile>
+    <ClCompile Include="PacketHandler\MsgFactory.cpp">
+      <Filter>PacketHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="PacketHandler\PBMessage.pb.cc">
+      <Filter>PacketHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="PacketHandler\Protocol.cpp">
+      <Filter>PacketHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="PacketHandler\ProtocolHandler.cpp">
+      <Filter>PacketHandler</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Client.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
